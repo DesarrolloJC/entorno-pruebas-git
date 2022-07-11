@@ -1,0 +1,15 @@
+/** COMANDOS GIT BRANCH **/
+-git branch (ver ramas del proyecto e indica en que rama se encuentra actualmente "*")
+-git branch nombreRama (crear una nueva rama)
+-git checkout NombreRama (moverse de una rama a otra)
+
+*- Agregar cambios en ramas secundarias -*
+    -git status (Ver los cambios realizados)
+    -git add * (Agregar los cambios)
+    -git commit -m "Descripcion de cambios" (agregar un comentario al los cambios agregados)
+*- Agregar cambios en ramas secundarias -*
+
+*- Subir cambios de ramas secundarias con Rama Master -*
+    -git log --oneline (ver los commits de las ramas que estan en espera de ser subidos)
+    -git merge nombreRama (Agregar los cambios de la rama secundaria a la rama principal)
+*- Subir cambios de ramas secundarias con Rama Master -*
