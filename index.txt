@@ -3,11 +3,21 @@
 -git branch nombreRama (crear una nueva rama)
 -git checkout NombreRama (moverse de una rama a otra)
 
+
 *- Agregar cambios en ramas secundarias -*
     -git status (Ver los cambios realizados)
     -git add * (Agregar los cambios)
+    
+*- subir rama a github :
+
+$ git push --set-upstream origin <nombre de la rama >
+
+    
     -git commit -m "Descripcion de cambios" (agregar un comentario al los cambios agregados)
 *- Agregar cambios en ramas secundarias -*
+
+
+
 
 *- Subir cambios de ramas secundarias con Rama Master -*
     -git log --oneline (ver los commits de las ramas que estan en espera de ser subidos)
